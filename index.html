@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" type="module" defer></script>
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="person-card">
+        <ul class="period-view">
+          <li data-timeframe="daily" data-last="Day">Daily</li>
+          <li data-timeframe="weekly" data-last="Week" class="active">Weekly</li>
+          <li data-timeframe="monthly" data-last="Month">Monthly</li>
+        </ul>
+        <div class="person-info">
+          <img src="./images/image-jeremy.png" alt="">
+          <div>
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+      </div>
+      <div class="life-aspect-card card-work" data-title="Work">
+        <div class="inner-card">
+          <div class="header">
+            <h5>Work</h5>
+            <img src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            32hrs
+          </div>
+          <p><span class="ref">Last Week - </span><span class="ref-duration">36hrs</span></p>
+        </div>
+      </div>
+      <div class="life-aspect-card card-play" data-title="Play">
+        <div class="inner-card">
+          <div class="header">
+            <h5>Play</h5>
+            <img src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            10hrs
+          </div>
+          <p><span class="ref">Last Week - </span><span class="ref-duration">8hrs</span></p>
+        </div>
+      </div>
+      <div class="life-aspect-card card-study" data-title="Study">
+        <div class="inner-card">
+          <div class="header">
+            <h5>Study</h5>
+            <img src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            4hrs
+          </div>
+          <p><span class="ref">Last Week - </span><span class="ref-duration">7hrs</span></p>
+        </div>
+      </div>
+      <div class="life-aspect-card card-exercise" data-title="Exercise">
+        <div class="inner-card">
+          <div class="header">
+            <h5>Exercise</h5>
+            <img src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            4hrs
+          </div>
+          <p><span class="ref">Last Week - </span><span class="ref-duration">5hrs</span></p>
+        </div>
+      </div>
+      <div class="life-aspect-card card-social" data-title="Social">
+        <div class="inner-card">
+          <div class="header">
+            <h5>Social</h5>
+            <img src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            5hrs
+          </div>
+          <p><span class="ref">Last Week - </span><span class="ref-duration">10hrs</span></p>
+        </div>
+      </div>
+      <div class="life-aspect-card card-self-care" data-title="Self Care">
+        <div class="inner-card">
+          <div class="header">
+            <h5>Self Care</h5>
+            <img src="/images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="duration">
+            2hrs
+          </div>
+          <p><span class="ref">Last Week - </span><span class="ref-duration">2hrs</span></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
